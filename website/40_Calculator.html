@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="40.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="calculator">
+        <div id="container"> 
+            <label for="" id="display"></label>
+        </div>
+        <div id="key">
+            <button class="btn" id="orange" onclick="clearEquation()">C</button>
+            <button class="btn" id="orange" onclick="clearOne()"><=</button>
+            <button class="btn" id="orange" onclick="disAppend('%')">%</button>
+            <button class="btn" id="orange" onclick="disAppend('/')">/</button>
+            <button class="btn" onclick="disAppend('7')">7</button>
+            <button class="btn" onclick="disAppend('8')">8</button>
+            <button class="btn" onclick="disAppend('9')">9</button>
+            <button class="btn" id="orange" onclick="disAppend('*')">*</button>
+            <button class="btn" onclick="disAppend('4')">4</button>
+            <button class="btn" onclick="disAppend('5')">5</button>
+            <button class="btn" onclick="disAppend('6')">6</button>
+            <button class="btn" id="orange" onclick="disAppend('-')">-</button>
+            <button class="btn" onclick="disAppend('1')">1</button>
+            <button class="btn" onclick="disAppend('2')">2</button>
+            <button class="btn" onclick="disAppend('3')">3</button>
+            <button class="btn" id="orange" onclick="disAppend('+')">+</button>
+            <button class="btn" onclick="disAppend('e')">e</button>
+            <button class="btn" onclick="disAppend('0')">0</button>
+            <button class="btn" onclick="disAppend('.')">.</button>
+            <button class="btn" id="orange" onclick="equalEquation()">=</button>
+        </div>
+    </div>
+    <script src="40.js"></script>
+</body>
+</html>
